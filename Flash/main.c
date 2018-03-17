@@ -7,7 +7,8 @@
 int main(void)
 {
 	/*initialize usart, mode: 115200*/
-	Debug_USART_Config(); LED_GPIO_Config();
+	Debug_USART_Config(); 
+	LED_GPIO_Config();
 	LED_BLUE;
 	/*Using printf，after redefining fputc，printf will print to serial port*/ 
 	printf("this is a usart printf demo. \r\n");

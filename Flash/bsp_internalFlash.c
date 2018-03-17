@@ -1,5 +1,6 @@
 #include "bsp_internalFlash.h"
 #include "stm32f4xx_flash.h"
+#include "usart.c"
 
 #define FLASH_KEY1		((uint32_t)0x45670123)
 #define FLASH_KEY2		((uint32_t)0xCDEF89AB)
